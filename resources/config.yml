@@ -1,0 +1,13 @@
+# SimpleFly Configuration
+
+anti_fly_combat: true
+
+no_fly_zones:
+  - "world_nether"
+  - "world_the_end"
+
+flight_enabled_message: "Flying has been enabled!"
+flight_disabled_message: "Flying has been disabled!"
+no_fly_zone_message: "You cannot fly in this area!"
+combat_flight_disabled_message: "Flight disabled due to combat!"
+no_permission_message: "You do not have permission to use this command!"
