@@ -33,7 +33,7 @@ class Main extends PluginBase implements Listener {
             
             if (count($args) == 0) {
                 $this->toggleFly($sender);
-            } else if (count($args) >= 1 && $args[0] == "time") {
+            } else if (isset($args[0]) && $args[0] == "time") {
                 $timeArg = array_shift($args);
                 $timeDuration = array_shift($args);
                 $targetPlayer = $sender;
