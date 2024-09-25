@@ -1,0 +1,17 @@
+name: SimpleFly
+main: Luthfi\SF\Main
+version: 1.0.0
+api: 5.0.0
+author: Luthfi
+description: A simple fly plugins.
+website: https://github.com/LuthMC/SimpleFly
+
+commands:
+  fly:
+    description: Toggle flight or set flight time for a player.
+    usage: "/fly [time] [player]"
+    permission: betterfly.use
+permissions:
+  betterfly.use:
+    description: Allow using the /fly command.
+    default: false
